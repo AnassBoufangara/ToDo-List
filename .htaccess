@@ -1,0 +1,7 @@
+OPTIONS -INDEXES
+
+ServerSignature OFF
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . / [L,R=301]

@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #f6f5f3;
+}
+.topbar {
+	padding: .5rem 1rem;
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 4px 4px 12px grey;
+	background-color: #393f4d
+}
+
+.topbar p {
+	padding: 1rem;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: sans-serif;
+	float: left;
+	background-color: transparent;
+}
+.topbar a {
+	padding: 1rem 1.5rem;
+	text-decoration: none;
+	border-radius: 5px;
+	float: right;
+	background-color: #7dce94;
+	text-align: center;
+	color: white;
+}
+.topbar::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Tasks Page */
+.Box {
+	width: 60%;
+	height: auto;
+	margin: 5% auto;
+}
+
+.Box h1{
+	text-align: center;
+	padding: 1rem;
+}
+
+.Con {
+	background-color: transparent;
+	width: 100%;
+	padding: 1rem;
+}
+
+.Con input {
+	padding:1rem;
+	margin: 0;
+	outline: none;
+	border: 1px solid  #7dce94;
+}
+
+.Con input[type="text"]{
+	width: 75%;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	padding:1rem;
+	border: 1px solid  #7dce94;
+}
+
+.Con input[type="submit"] {
+	width: 20%;
+
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-left: -5px;
+	border: none;
+	background-color: transparent;
+	padding:1rem;
+	border: 1px solid  #7dce94;
+}
+
+.list1, .list2 {
+	width: 100%;
+	padding: 1rem;
+	margin-top: 1rem; 
+}
+
+.list1 li, .list2 li {
+	list-style-type: none;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+li p{
+	float: left;
+	padding: 1rem;
+}
+
+li a{
+	float: right;
+	padding: 1rem;
+}
+
+li:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.add {
+	color: #7dce94;
+}
+.delete {
+	color: red;
+}
